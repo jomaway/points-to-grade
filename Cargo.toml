@@ -1,0 +1,13 @@
+[package]
+name = "points-to-grade"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.0.22", features = ["derive"] }
+xlsxwriter = "0.4.0"
+csv = "1.1.6"
+log = "0.4.17"
+env_logger = "0.9.3"
